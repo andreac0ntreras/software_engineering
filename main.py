@@ -1,4 +1,4 @@
-# Lab 6 - GitHub lab
+# Lab 6 - GitHub lab Andrea Contreras
 
 def encode(password):
     encoded = ""
@@ -6,15 +6,6 @@ def encode(password):
         digit = int(i) + 3
         encoded += str(digit)
     return encoded
-
-
-def decode(password):
-    decoded = ""
-    for i in password:
-        digit = int(i) - 3
-        decoded += str(digit)
-    return decoded
-
 
 def main():
 
